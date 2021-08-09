@@ -1,0 +1,55 @@
+{
+	"author" : "wuweiyan",
+ 	"title" : "租赁产品文档",
+ 	"language" : "zh-hans",
+ 	"links" : {
+    "sidebar" : {
+    	"Home" : "https://github.com/dunwu/gitbook-notes"
+    }
+	},
+	"pdf": {
+    "pageNumbers": true,
+    "fontFamily": "Arial",
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+        "right": 62,
+        "left": 62,
+        "top": 56,
+        "bottom": 56
+    }
+	},
+	"plugins": [
+		"-lunr", 
+    "-search", 
+    "search-pro",
+    "-sharing",
+    "sharing-plus",
+		"code",
+		"back-to-top-button",
+    "expandable-chapters",
+    "expandable-chapters-small",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+       "douban": false,
+       "facebook": false,
+       "google": true,
+       "pocket": false,
+       "qq": false,
+       "qzone": true,
+       "twitter": false,
+       "weibo": true,
+		   "all": [
+         "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+         "messenger","qq", "qzone","viber","whatsapp"
+		   ]
+		 },
+		 "tbfed-pagefooter": {
+        "copyright":"Copyright &copy mine 2000-2020",
+        "modify_label": "文件修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+     }
+  }
+}
